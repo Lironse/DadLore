@@ -29,5 +29,5 @@ export const POST: RequestHandler = async ({ request }) => {
 	await fs.writeFile(filePath, fileContent);
 
 	const link = path.join('@' + sanitizedAuthor, sanitizedDate)
-	return json({ link: 'localhost:5173/' + link });
+	return json({ link: 'dad-lore.vercel.app/' + link });
 };
