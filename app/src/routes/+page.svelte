@@ -27,7 +27,7 @@
 			return;
 		}
 		const link = (await res.json()).link;
-		alert('your lore can be found at: ' + link);
+		alert('your epic dad lore can be found at: ' + link);
 	}
 
 	let name = '';
@@ -57,7 +57,7 @@
 			</div>
 		</div>
 		<div>
-			<h1 class="w-full font-bold text-xl">Whats your story today?</h1>
+			<h1 class="w-full font-bold text-xl">What's your story today?</h1>
 		</div>
 		<div>
 			<textarea

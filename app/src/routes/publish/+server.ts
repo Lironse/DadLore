@@ -29,7 +29,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		await fs.writeFile(filePath, fileContent);
 
 		const link = path.join('@' + sanitizedAuthor, sanitizedDate)
-		return json({ link: 'dad-lore.vercel.app/' + link });
+		return json({ link: '176.230.36.217:5173/' + link });
 	} catch (e) {
 		console.log('error', e)
 		return json({ link: e });
